@@ -55,7 +55,7 @@ public class PastTest {
 
         SUT.setDateTime(LocalDateTime.now());
         //System.out.println("Depends on speed....!");
-//        Thread.sleep(10);
+        Thread.sleep(5000);
         violations = validateClass(SUT);
         assertEquals(1, violations.size());
         System.out.println("Now!");
